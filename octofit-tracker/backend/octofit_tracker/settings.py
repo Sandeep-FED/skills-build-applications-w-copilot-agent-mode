@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-s-ev*lspwe5-1%u_uauxp_@*na56*o7oxskv!obdcz1n&uliz^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'stunning-eureka-qp645v99w726xpp-8000.app.github.dev']
 
 
 # Application definition
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
-    "djongo",
+    "django",
     "corsheaders",
     "octofit_tracker",
 ]
